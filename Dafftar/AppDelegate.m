@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
+#import "SignInViewController.h"
+#import "DBClass.h"
+
+
 
 @implementation AppDelegate
 
@@ -14,9 +19,55 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    SignInViewController *test;
+    
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+    {
+        CGSize result = [[UIScreen mainScreen] bounds].size;
+        if(result.height == 480)
+        {
+            
+                       test = [[SignInViewController alloc]     initWithNibName:@"SignInViewControllerSmall" bundle:nil];
+            // iPhone Classic
+        }
+        if(result.height == 568)
+        {
+           test = [[SignInViewController alloc]     initWithNibName:@"SignInViewController" bundle:nil];
+        }
+    }
+    else
+    {
+        test = [[SignInViewController alloc]     initWithNibName:@"SignInViewControllerSmall" bundle:nil];
+    }
+    
+   
+    UINavigationController *nav = [[UINavigationController alloc]  initWithRootViewController:test];
+    self.window.rootViewController = nav;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+            [self simulatingData];
     return YES;
+}
+
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    NSLog(@"notification recived,%@,set for date %@",notification.alertBody,notification.fireDate);
+    
+}
+
+-(void)simulatingData
+{
+    [self performSelectorInBackground:@selector(registeringDatabeseInBackground) withObject:nil];
+    
+    
+}
+-(void)registeringDatabeseInBackground
+{
+    
+    DBClass *helper=[[DBClass alloc]init];
+    [helper checkAndCreateDatabase];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
