@@ -60,6 +60,9 @@
 		0490834818EEE58A00CE67DE /* fill-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 0490834718EEE58A00CE67DE /* fill-star.png */; };
 		0490834C18EEE99300CE67DE /* FavouriteNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0490834A18EEE99300CE67DE /* FavouriteNoteViewController.m */; };
 		0490834D18EEE99300CE67DE /* FavouriteNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0490834B18EEE99300CE67DE /* FavouriteNoteViewController.xib */; };
+		0497CE3E1906373700A26A9C /* SignInViewControllerIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0497CE3D1906373700A26A9C /* SignInViewControllerIpad.xib */; };
+		0497CE40190638F400A26A9C /* ipad_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0497CE3F190638F400A26A9C /* ipad_login.jpg */; };
+		0497CE4219063C2C00A26A9C /* AllNoteViewControllerIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0497CE4119063C2C00A26A9C /* AllNoteViewControllerIpad.xib */; };
 		049BB6A318EAC0E200E4C8CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049BB6A218EAC0E200E4C8CB /* Foundation.framework */; };
 		049BB6A518EAC0E200E4C8CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049BB6A418EAC0E200E4C8CB /* CoreGraphics.framework */; };
 		049BB6A718EAC0E200E4C8CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049BB6A618EAC0E200E4C8CB /* UIKit.framework */; };
@@ -203,6 +206,9 @@
 		0490834918EEE99300CE67DE /* FavouriteNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouriteNoteViewController.h; sourceTree = "<group>"; };
 		0490834A18EEE99300CE67DE /* FavouriteNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouriteNoteViewController.m; sourceTree = "<group>"; };
 		0490834B18EEE99300CE67DE /* FavouriteNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavouriteNoteViewController.xib; sourceTree = "<group>"; };
+		0497CE3D1906373700A26A9C /* SignInViewControllerIpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewControllerIpad.xib; sourceTree = "<group>"; };
+		0497CE3F190638F400A26A9C /* ipad_login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad_login.jpg; sourceTree = "<group>"; };
+		0497CE4119063C2C00A26A9C /* AllNoteViewControllerIpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllNoteViewControllerIpad.xib; sourceTree = "<group>"; };
 		049BB69F18EAC0E200E4C8CB /* Dafftar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dafftar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049BB6A218EAC0E200E4C8CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		049BB6A418EAC0E200E4C8CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -365,6 +371,7 @@
 				049BB6FA18EACDF300E4C8CB /* AllNoteViewController.m */,
 				049BB6FB18EACDF300E4C8CB /* AllNoteViewController.xib */,
 				04398B0318FC132F000FCBED /* AllNoteViewControllerSmall.xib */,
+				0497CE4119063C2C00A26A9C /* AllNoteViewControllerIpad.xib */,
 				041BE8EB18ED3E8100387D2F /* VideoViewController.h */,
 				041BE8EC18ED3E8100387D2F /* VideoViewController.m */,
 				041BE8ED18ED3E8100387D2F /* VideoViewController.xib */,
@@ -411,6 +418,7 @@
 				048E01DE18FE589E00F859B9 /* WebMethods.m */,
 				049D01E318FD0EC600513623 /* SignInViewController.xib */,
 				049D01E818FD0EE100513623 /* SignInViewControllerSmall.xib */,
+				0497CE3D1906373700A26A9C /* SignInViewControllerIpad.xib */,
 				04398AFC18FC0CD5000FCBED /* DetailViewControllerText.h */,
 				04398AFD18FC0CD5000FCBED /* DetailViewControllerText.m */,
 				04398AFE18FC0CD5000FCBED /* DetailViewControllerText.xib */,
@@ -496,6 +504,7 @@
 			isa = PBXGroup;
 			children = (
 				045F832418FFE31600CFBDC3 /* checkbox.png */,
+				0497CE3F190638F400A26A9C /* ipad_login.jpg */,
 				045F832618FFE31D00CFBDC3 /* checked_checkbox.png */,
 				04AB834218FE7D9500156519 /* login-5.jpg */,
 				048E01E018FE63D100F859B9 /* home_icon_hover.png */,
@@ -670,7 +679,9 @@
 				048E01E118FE63D100F859B9 /* home_icon_hover.png in Resources */,
 				041BE8DD18ED352C00387D2F /* voice_recording_dropdown_icon.png in Resources */,
 				049BB6D918EAC31500E4C8CB /* HomeViewControllerSmall.xib in Resources */,
+				0497CE4219063C2C00A26A9C /* AllNoteViewControllerIpad.xib in Resources */,
 				04398B0218FC0CF2000FCBED /* DetailViewControllerTextSmall.xib in Resources */,
+				0497CE40190638F400A26A9C /* ipad_login.jpg in Resources */,
 				0437922E18F52EBF00E1AB83 /* CameraViewControlleriPad.xib in Resources */,
 				049BB71C18EAD66C00E4C8CB /* DetailNoteViewControler.xib in Resources */,
 				049BB72318EAE4C800E4C8CB /* new_note_icon.png in Resources */,
@@ -715,6 +726,7 @@
 				049D8D0418F7EF3F0027D46C /* AllTagViewController.xib in Resources */,
 				0410FC1218FEA3A9003DCEFA /* AllTagViewControllerSmall.xib in Resources */,
 				041BE8F918ED45FE00387D2F /* back_bg.png in Resources */,
+				0497CE3E1906373700A26A9C /* SignInViewControllerIpad.xib in Resources */,
 				049D01EE18FD0F7400513623 /* MapViewController.xib in Resources */,
 				049D8CF318F7E98D0027D46C /* 10 Great iPhone Tips.pdf in Resources */,
 				04398B0618FC16A4000FCBED /* FavouriteNoteViewControllerSmall.xib in Resources */,

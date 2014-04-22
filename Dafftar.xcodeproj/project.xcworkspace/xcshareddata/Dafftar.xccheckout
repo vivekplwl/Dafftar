@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AEF776A2-DB3E-4FBF-BCC5-8B7AAF2ACB3B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Dafftar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B212678D-E57B-48DB-8C3F-6B9103B3528D</key>
+		<string>https://github.com/vivekplwl/Dafftar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Dafftar.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B212678D-E57B-48DB-8C3F-6B9103B3528D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vivekplwl/Dafftar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B212678D-E57B-48DB-8C3F-6B9103B3528D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B212678D-E57B-48DB-8C3F-6B9103B3528D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dafftar</string>
+		</dict>
+	</array>
+</dict>
+</plist>

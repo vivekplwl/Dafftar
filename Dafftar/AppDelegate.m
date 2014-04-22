@@ -37,7 +37,7 @@
     }
     else
     {
-        test = [[SignInViewController alloc]     initWithNibName:@"SignInViewControllerSmall" bundle:nil];
+        test = [[SignInViewController alloc]     initWithNibName:@"SignInViewControllerIpad" bundle:nil];
     }
     
    
