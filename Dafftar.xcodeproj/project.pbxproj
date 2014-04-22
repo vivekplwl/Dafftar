@@ -63,6 +63,8 @@
 		0497CE3E1906373700A26A9C /* SignInViewControllerIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0497CE3D1906373700A26A9C /* SignInViewControllerIpad.xib */; };
 		0497CE40190638F400A26A9C /* ipad_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0497CE3F190638F400A26A9C /* ipad_login.jpg */; };
 		0497CE4219063C2C00A26A9C /* AllNoteViewControllerIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0497CE4119063C2C00A26A9C /* AllNoteViewControllerIpad.xib */; };
+		0497CEBA19064ED900A26A9C /* DetailViewControllerTextIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0497CEB919064ED900A26A9C /* DetailViewControllerTextIpad.xib */; };
+		0497CEBC1906523700A26A9C /* DetailViewControllerCameraIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0497CEBB1906523700A26A9C /* DetailViewControllerCameraIpad.xib */; };
 		049BB6A318EAC0E200E4C8CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049BB6A218EAC0E200E4C8CB /* Foundation.framework */; };
 		049BB6A518EAC0E200E4C8CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049BB6A418EAC0E200E4C8CB /* CoreGraphics.framework */; };
 		049BB6A718EAC0E200E4C8CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049BB6A618EAC0E200E4C8CB /* UIKit.framework */; };
@@ -209,6 +211,8 @@
 		0497CE3D1906373700A26A9C /* SignInViewControllerIpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewControllerIpad.xib; sourceTree = "<group>"; };
 		0497CE3F190638F400A26A9C /* ipad_login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad_login.jpg; sourceTree = "<group>"; };
 		0497CE4119063C2C00A26A9C /* AllNoteViewControllerIpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllNoteViewControllerIpad.xib; sourceTree = "<group>"; };
+		0497CEB919064ED900A26A9C /* DetailViewControllerTextIpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewControllerTextIpad.xib; sourceTree = "<group>"; };
+		0497CEBB1906523700A26A9C /* DetailViewControllerCameraIpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewControllerCameraIpad.xib; sourceTree = "<group>"; };
 		049BB69F18EAC0E200E4C8CB /* Dafftar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dafftar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049BB6A218EAC0E200E4C8CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		049BB6A418EAC0E200E4C8CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -343,6 +347,7 @@
 				0437923718F5680900E1AB83 /* DetailViewControllerCamera.m */,
 				0437923818F5680900E1AB83 /* DetailViewControllerCamera.xib */,
 				04398AF818FBC6C8000FCBED /* DetailViewControllerCameraSmall.xib */,
+				0497CEBB1906523700A26A9C /* DetailViewControllerCameraIpad.xib */,
 				049D8D0018F7EF3F0027D46C /* AllTagViewController.h */,
 				049D8D0118F7EF3F0027D46C /* AllTagViewController.m */,
 				049D8D0218F7EF3F0027D46C /* AllTagViewController.xib */,
@@ -402,6 +407,7 @@
 		049BB69618EAC0E200E4C8CB = {
 			isa = PBXGroup;
 			children = (
+				0497CEB919064ED900A26A9C /* DetailViewControllerTextIpad.xib */,
 				0410FC0F18FE870D003DCEFA /* RemainingWork.rtf */,
 				049D01EA18FD0F7400513623 /* MapViewController.h */,
 				049D01F318FD167500513623 /* new_theme-1.jpg */,
@@ -678,6 +684,7 @@
 				0437923518F53B8900E1AB83 /* TagViewControlleriPad.xib in Resources */,
 				048E01E118FE63D100F859B9 /* home_icon_hover.png in Resources */,
 				041BE8DD18ED352C00387D2F /* voice_recording_dropdown_icon.png in Resources */,
+				0497CEBC1906523700A26A9C /* DetailViewControllerCameraIpad.xib in Resources */,
 				049BB6D918EAC31500E4C8CB /* HomeViewControllerSmall.xib in Resources */,
 				0497CE4219063C2C00A26A9C /* AllNoteViewControllerIpad.xib in Resources */,
 				04398B0218FC0CF2000FCBED /* DetailViewControllerTextSmall.xib in Resources */,
@@ -719,6 +726,7 @@
 				049D8CF518F7E98D0027D46C /* foggy.jpg in Resources */,
 				0410FC1618FEA97C003DCEFA /* signin-2.jpg in Resources */,
 				049D8CFA18F7EC040027D46C /* SearchViewController.xib in Resources */,
+				0497CEBA19064ED900A26A9C /* DetailViewControllerTextIpad.xib in Resources */,
 				041BE8D918ED34EB00387D2F /* video_dropdown_icon.png in Resources */,
 				049D01F418FD167500513623 /* new_theme-1.jpg in Resources */,
 				049BB6E718EAC7D500E4C8CB /* signin_iphone4.jpg in Resources */,

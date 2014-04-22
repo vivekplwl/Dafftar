@@ -413,7 +413,7 @@
         }
         else
         {
-       dc=[[DetailViewControllerCamera alloc]initWithNibName:@"DetailViewControllerCamera" bundle:Nil];
+       dc=[[DetailViewControllerCamera alloc]initWithNibName:@"DetailViewControllerCameraIpad" bundle:Nil];
         }
         
         
@@ -452,7 +452,7 @@
         }
         else
         {
-            dc=[[DetailViewControllerCamera alloc]initWithNibName:@"DetailViewControllerCamera" bundle:Nil];
+            dc=[[DetailViewControllerCamera alloc]initWithNibName:@"DetailViewControllerCameraIpad" bundle:Nil];
         }
         
         
@@ -493,7 +493,7 @@
         }
         else
         {
-            dc=[[DetailViewControllerText alloc]initWithNibName:@"DetailViewControllerTextSmall" bundle:Nil];
+            dc=[[DetailViewControllerText alloc]initWithNibName:@"DetailViewControllerTextIpad" bundle:Nil];
         }
         
         

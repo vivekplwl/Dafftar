@@ -195,11 +195,13 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
         if(result.height == 568)
         {
             test = [[AllNoteViewController alloc]     initWithNibName:@"AllNoteViewController" bundle:nil];
+            
+            
         }
     }
     else
     {
-        test = [[AllNoteViewController alloc]     initWithNibName:@"AllNoteViewControllerSmall" bundle:nil];
+        test = [[AllNoteViewController alloc]     initWithNibName:@"AllNoteViewControllerIpad" bundle:nil];
     }
     
     [self.navigationController pushViewController:test animated:YES];
